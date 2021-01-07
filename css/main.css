@@ -1,0 +1,13 @@
+/*------------- custom style --------------*/
+
+.r-0 {
+    border-radius: 0 !important;
+}
+
+.bg-facebook {
+    background-color: #4867AA;
+}
+
+.bg-google {
+    background-color: #4081EC;
+}

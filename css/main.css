@@ -1,4 +1,4 @@
-/*------------- custom style --------------*/
+/*------------- begin Moad Init Libarary --------------*/
 
 .r-0 {
     border-radius: 0 !important;
@@ -11,3 +11,24 @@
 .bg-google {
     background-color: #4081EC;
 }
+
+
+/*------------- end Moad Init Libarary --------------*/
+
+
+/*------------- begin custom css --------------*/
+
+.category-card {
+    background-color: #222222;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-card:hover {
+    background-color: #ffffff;
+    color: #222222;
+    text-decoration: none;
+}
+
+
+/*------------- end custom css --------------*/

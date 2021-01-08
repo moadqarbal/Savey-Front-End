@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join Us To Organize Your Life">
+    <meta name="keywords" content="Moad Qarbal, Savey, Save my links, Join Us To Organize Your Life">
+    <meta name="author" content="Moad Qarbal">
+    <title>Savey</title>
+
+    <link rel="stylesheet" href="../css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Savey</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.php">
+                                Categories
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="#">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2 r-0" type="search" placeholder="Search for item" aria-label="Search">
+                                <button class="btn btn-primary my-2 my-sm-0 r-0" type="submit">Search</button>
+                            </form>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                User
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">General Settings</a>
+                                <a class="dropdown-item" href="categories-settings.php">Category Settings</a>
+                                <a class="dropdown-item" href="items-settings.php">Items Settings</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="categories py-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h2 class="text-center">Categories</h2>
+                    <hr>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="categories-box mt-4">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="category.php?category=9" class="card py-4 mt-3 category-card r-0">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Image
+                                </h5>
+                                <i class="fas fa-images fa-2x"></i>
+                            </div>
+                        </a>
+                        <button class="form-control text-center pb-4 r-0">
+                            Delete
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-3 bg-dark mt-5">
+        <div class="copyright text-white text-center">
+            Copyright 2021 &copy; Designed and Developed by Moad
+        </div>
+    </footer>
+
+
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>

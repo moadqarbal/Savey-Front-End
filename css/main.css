@@ -18,13 +18,13 @@
 
 /*------------- begin custom css --------------*/
 
-.category-card {
+.categories .category-card {
     background-color: #222222;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
 }
 
-.category-card:hover {
+.categories .category-card:hover {
     background-color: #ffffff;
     color: #222222;
     text-decoration: none;
